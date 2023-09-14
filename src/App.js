@@ -1,23 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import CircleComponent from "./Component/CircleComponent";
+import Carosol from "./Component/Carosol";
+import Footer from "./Component/Footer";
+import Header from "./Component/Header";
+import MasterPiece from "./Component/MasterPiece";
+import UpperCircle from "./Component/UpperCircle";
+import VideoStreaming from "./Component/VideoStreaming";
+import FileBoxes from "./Component/filebox";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Header />
+      <Carosol />
+      <MasterPiece />
+      <UpperCircle />
+      <FileBoxes />
+      <CircleComponent />
+      <VideoStreaming />
+      <Footer />
     </div>
   );
 }

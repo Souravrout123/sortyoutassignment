@@ -1,0 +1,13 @@
+.footer {
+  background: #00a67e;
+  color: white;
+  clear: both;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  padding: 0;
+  border: 0;
+  border-top: 1px solid rgba(77, 78, 80, 1);
+  margin-top: 0;
+}
